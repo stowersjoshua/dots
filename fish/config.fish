@@ -86,6 +86,8 @@ function cdp -d "Move to associated project directory"
     rvm (cat .ruby-version)
   case d doc awk doc_awk
     cd /home/joshua/Projects/DocAwk/
+  case dot dots 
+    cd ~/Projects/DotFiles
   end
 
   pwd
